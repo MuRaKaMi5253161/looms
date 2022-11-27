@@ -1,0 +1,15 @@
+body {
+  --looms-color: #aa7fdd;
+  --looms-background: #e6ecf0;
+  --looms-textArea-background: rgba(255,255,255,0.7);
+  --looms-auth-input-buckground: rgba(36, 34, 34, 0.7);
+  --looms-auth-background: linear-gradient(to right, #ae74f5 0%, #5d1ca7 100%);
+  --looms-auth-button-color: #480993;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+  max-width: 1700px;
+  margin: 0 auto;
+}

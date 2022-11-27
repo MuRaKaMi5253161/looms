@@ -1,0 +1,32 @@
+.rightArea {
+    flex: 0.25;
+    border-left: 1px solid var(--looms-background);
+    border-right: 1px solid var(--looms-background);
+    min-width: 250px;
+    margin-top: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+/* MyPage */
+.myPageArea {
+    min-width: 250px;
+    min-height: 50px;
+    border-bottom: 1px solid var(--looms-background);
+    display: flex !important;
+    align-items: center !important;
+}
+
+.myPageArea_title {
+    font-size: 35px;
+    margin-left: 140px;
+    color: var(--looms-color);
+}
+
+.myPage_Icon {
+    padding-bottom: 15px;
+    font-size: 50px !important;
+    float: right !important;
+    margin-left: 70px;
+    margin-top: 27px;
+}

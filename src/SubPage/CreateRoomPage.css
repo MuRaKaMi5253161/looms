@@ -1,0 +1,91 @@
+.CreateRoomPage {
+    flex: 1.0;
+    min-width: 700px;
+    border: 1px solid var(--looms-background);
+}
+
+.CreateRoomPage_title h1{
+    text-align: center;
+    font-size: 50px;
+    color: var(--looms-color);
+}
+
+.CreateRoomPage_menu {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: var(--looms-color) ;
+    border: none;
+    border-radius: 20px;
+}
+
+.CreateRoomPage_form{
+    color: var(--looms-background);
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+    font-weight: bold;
+    min-height: 400px;
+    font-size: 30px;
+}
+
+.roomNameTitle {
+    margin-top: 50px;
+}
+
+.roomNameInput {
+    font-size: 30px;
+    width: 600px;
+    height: 60px;
+    border: 1px solid var(--looms-background);
+    border-radius: 10px;
+    background-color: var(--looms-textArea-background);
+}
+
+.roomExplanationInput {
+    font-size: 20px;
+    width: 600px;
+    height: 200px;
+    border: 1px solid var(--looms-background);
+    border-radius: 10px;
+    background-color: var(--looms-textArea-background);
+}
+
+.roomExplanationTitle {
+    padding-top: 30px;
+}
+
+.CreateRoomSubmit {
+    color: var(--looms-color) !important;
+    margin-top: 30px !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    border: 1px solid var(--looms-background) !important;
+    border-radius: 25px !important;
+    width: 200px !important;
+    height: 60px !important;
+    background-color: var(--looms-textArea-background) !important;
+}
+
+.backTopPage {
+    color: var(--looms-color) !important;
+    margin-top: 30px !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    border: 1px solid var(--looms-background) !important;
+    border-radius: 25px !important;
+    width: 200px !important;
+    height: 60px !important;
+    background-color: var(--looms-textArea-background) !important;
+    margin-left: 30px !important;
+}
+
+.errorMessage {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(133, 24, 24);
+    margin: 12px;
+
+}
+

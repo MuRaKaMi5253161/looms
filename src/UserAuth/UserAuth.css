@@ -1,0 +1,162 @@
+.userAuthPage {
+    flex: 1.0;
+    min-width: 700px;
+    border: 1px solid var(--looms-background);
+    background-image: var(--looms-auth-background);
+}
+
+.userAuth_title h1 {
+    text-align: center;
+    font-size: 60px;
+    color: var(--looms-color);
+    margin-top: 100px;
+    font-family: fantasy;
+}
+
+.userAuth_menu {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--looms-auth-input-buckground);
+}
+
+.accountIcon {
+    font-size: 240px !important;
+    margin-top: 50px;
+}
+
+.addAcountIcon {
+    font-size: 240px !important;
+    margin-top: 20px;
+}
+
+.userAuth_form {
+    color: var(--looms-background);
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+    font-weight: bold;
+    min-height: 400px;
+    font-size: 30px;
+}
+
+.email {
+    font-size: 40px;
+    width: 600px;
+    height: 90px;
+    border: 1px solid var(--looms-background) !important;
+    border-radius: 30px;
+    background-color: var(--looms-auth-input-buckground) !important;
+    margin-top: 10px;
+}
+
+.password {
+    font-size: 40px;
+    width: 600px;
+    height: 90px;
+    border: 1px solid var(--looms-background) !important;
+    border-radius: 30px;
+    background-color: var(--looms-auth-input-buckground) !important;
+    margin-top: 30px;
+}
+
+.signInButton {
+    color: var(--looms-color) !important;
+    margin-top: 30px !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    border: 1px solid var(--looms-background) !important;
+    border-radius: 25px !important;
+    width: 600px !important;
+    height: 90px !important;
+    background-color: var(--looms-auth-button-color) !important;
+}
+
+.signUpButton {
+    color: var(--looms-color) !important;
+    margin-top: 30px !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    border: 1px solid var(--looms-background) !important;
+    border-radius: 25px !important;
+    width: 600px !important;
+    height: 90px !important;
+    background-color: var(--looms-auth-button-color) !important;
+}
+
+.backLoginButton {
+    color: var(--looms-color) !important;
+    margin-top: 30px !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    border: 1px solid var(--looms-background) !important;
+    border-radius: 25px !important;
+    width: 600px !important;
+    height: 90px !important;
+    background-color: var(--looms-auth-button-color) !important;
+}
+
+.signOutButton {
+    color: var(--looms-color) !important;
+    margin-top: 30px !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    border: 1px solid var(--looms-background) !important;
+    border-radius: 25px !important;
+    width: 600px !important;
+    height: 90px !important;
+    background-color: var(--looms-auth-button-color) !important;
+}
+
+.backTopPageButton {
+    color: var(--looms-color) !important;
+    margin-top: 30px !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    border: 1px solid var(--looms-background) !important;
+    border-radius: 25px !important;
+    width: 600px !important;
+    height: 90px !important;
+    background-color: var(--looms-auth-button-color) !important;
+}
+
+.jumpUserRegisterPage {
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.userId h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 100px;
+}
+
+.userId p {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.userEmail h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 50px;
+}
+
+.userEmail p {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.errorMessage {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(133, 24, 24);
+    margin: 12px;
+}

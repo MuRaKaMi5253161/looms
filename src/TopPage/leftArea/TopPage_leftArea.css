@@ -1,0 +1,25 @@
+.createRoom {
+    flex: 0.15;
+    border-right: 1px solid var(--looms-background);
+    min-width: 250px;
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.createRoom_header h2 {
+    font-size: 40px;
+    color: var(--looms-color);
+}
+
+.createRoomPage_jump_button {
+    height: 70px;
+    width: 200px;
+    font-size: 25px;
+    font-weight: 900 !important;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none !important;
+    border-radius: 30px !important;
+    background-color: var(--looms-color);
+}

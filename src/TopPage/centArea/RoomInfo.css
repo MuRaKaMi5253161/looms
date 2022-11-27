@@ -1,0 +1,47 @@
+.RoomInfo {
+    width: 90%;
+    height: 300px;
+    background-color: var(--looms-color);
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 30px;
+}
+
+.RoomInfo_Name {
+    font-size: 25px;
+    height: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 1px;
+    border-bottom: 1px solid var(--looms-background);
+    margin: 0 !important;
+}
+
+.RoomInfo_Name h3 {
+    margin: 0 !important;
+    padding-top: 4px;
+}
+
+.RoomInfo_Explanation {
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+}
+
+.RoomInfo_form {
+    margin-top: 50px;
+    color: var(--looms-color) !important;
+}
+
+.EnteringRoomButton {
+    margin-top: 30px !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    border: 1px solid var(--looms-background) !important;
+    border-radius: 25px !important;
+    width: 300px !important;
+    height: 60px !important;
+    background-color: var(--looms-auth-background) !important;
+}
